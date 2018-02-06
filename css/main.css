@@ -34,12 +34,28 @@ header{
   opacity: 1;
   z-index: 11;
   padding: 20px 0;
-  transition: .3s;
   width: 100%;
   margin-left: 0;
   margin-right: 0;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+#wrap1, #wrap2, #wrap3, #wrap4, #wrap5, #wrap6, #wrap7, #wrap8{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(152, 55, 55, 0.9);
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+
+.img-responsive{
+  position: relative;
 }
 
 nav ul{
@@ -141,6 +157,7 @@ nav ul li a:hover{
 .wrap__foto .foto{
   padding-right: 0 !important;
   padding-left: 0 !important;
+  /*height: 250px;*/
 }
 
 .wrap__team{
