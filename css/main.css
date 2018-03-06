@@ -150,19 +150,19 @@ nav ul li a:hover{
     justify-content: center;
     list-style: none;
     padding-left: 0;
-    background-color: #f0f0f0;
-    color: #1b1e32;
+    background-color: #1b1e32;
+    padding-bottom: 15px;
   }
 
   nav ul li{
     padding: 10px 0;
-    background-color: #f0f0f0;
+    background-color: #1b1e32;
     color: #fff;
     margin-left: 0;
     margin-top: 0;
   }
   nav ul li a{
-  color: #1b1e32;
+  color: #ffffff;
 
   }
 }
@@ -243,10 +243,6 @@ nav ul li a:hover{
 .wrap__block-row p{
   color: #6c7279;
   font-size: 14px;
-}
-
-.row__1{
-  margin-bottom: 90px;
 }
 
 .wrap__foto{
@@ -476,14 +472,6 @@ nav ul li a:hover{
 }
 
 @media (max-width: 768px){
-  .row__1{
-    margin-bottom: 0;
-  }
-
-  .row__1 > div, .row__2 > div{
-    margin-bottom: 20px;
-  }
-
   .wrap__block-row {
     padding: 20px 0 20px 0;
   }
